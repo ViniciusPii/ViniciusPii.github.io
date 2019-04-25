@@ -16,6 +16,7 @@ body {
     width: 100%;
     left: 0;
     top: 0;
+    clear: both;
 }
 
 .top_int {
@@ -198,14 +199,15 @@ body {
 
 /*portifolio*/
 
-.port_img {
-    display: flex;
-    flex-wrap: wrap;
+
+.port_img img{
+    width: 33.333333333%;
+    float: left;
 }
 
-.port img {
-    width: 33.3333333%;
-}
+/*.port_img img:hover {
+    opacity: 0.8;
+}*/
 
 .banner_port {
     background-image: url("../images/Porti/l4.jpg");
@@ -215,6 +217,7 @@ body {
     height: 800px;
     display: flex;
     justify-content: center;
+    clear: both;
 }
 
 .banner_port_desc {
@@ -251,6 +254,7 @@ body {
     height: 800px;
     background-image: url('../images/c1.jpg');
     background-size: cover;
+    background-position: top;
     justify-content: center;
 }
 
@@ -594,12 +598,14 @@ textarea {
         display: block;
     }
 
-}
-
-@media screen and (max-width: 320px) {
     .footer_text {
         font-size: 34px;
     }
+
+}
+
+@media screen and (max-width: 320px) {
+    
 
     .footer_copy {
         font-size: 10px;
