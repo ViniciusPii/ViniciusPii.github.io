@@ -16,7 +16,7 @@ body {
     width: 100%;
     left: 0;
     top: 0;
-    clear: both;
+    z-index: 1;
 }
 
 .top_int {
@@ -205,9 +205,9 @@ body {
     float: left;
 }
 
-/*.port_img img:hover {
+.port_img img:hover {
     opacity: 0.8;
-}*/
+}
 
 .banner_port {
     background-image: url("../images/Porti/l4.jpg");
