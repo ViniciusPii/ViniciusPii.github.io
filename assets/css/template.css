@@ -569,17 +569,9 @@ textarea {
 
 @media screen and (max-width: 425px) {   
     
-    .banner_home_title {
-        display: none;
-    }
-
-    .banner_home_sub {
-        display: none;
-    }
-
-    .banner_home_bar {
-        display: none;
-    }
+   .banner_home_title {
+       text-align: center;
+   }
 
     .contact {
         height: auto;
