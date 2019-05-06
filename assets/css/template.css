@@ -571,6 +571,7 @@ textarea {
     
    .banner_home_title {
        text-align: center;
+       letter-spacing: 0.2em;
    }
 
     .contact {
@@ -598,6 +599,9 @@ textarea {
 
 @media screen and (max-width: 320px) {
     
+    .banner_home_title {
+        letter-spacing: 0.1em;
+    }
 
     .footer_copy {
         font-size: 10px;
