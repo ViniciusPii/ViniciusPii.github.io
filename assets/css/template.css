@@ -536,11 +536,11 @@ textarea {
 
 @media screen and (max-width: 680px) {
     .banner_home_title{
-        letter-spacing: normal;
+        letter-spacing: 0.2em;
         padding: 0;
     }
     .banner_home_sub {
-        letter-spacing: normal;
+        letter-spacing: 0.5em;
         padding: 0;
     }
 
@@ -552,7 +552,14 @@ textarea {
     
 }
 
+
 @media screen and (max-width: 532px) {   
+
+    .banner_home_title {
+        text-align: center;
+        letter-spacing: 0.3em;
+    }
+
     .form {
         width: 300px;
     }
@@ -570,8 +577,11 @@ textarea {
 @media screen and (max-width: 425px) {   
     
    .banner_home_title {
-       text-align: center;
        letter-spacing: 0.2em;
+   }
+
+   .banner_home_sub {
+       letter-spacing: 0.3em;
    }
 
     .contact {
